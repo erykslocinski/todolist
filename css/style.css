@@ -1,0 +1,79 @@
+@import url("https://fonts.googleapis.com/css?family=Roboto:400,700&display=swap");
+/* Set box-sizing to border-box for all elements */
+html {
+  -webkit-box-sizing: border-box;
+          box-sizing: border-box;
+}
+
+* {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+*::before, *::after {
+  -webkit-box-sizing: inherit;
+          box-sizing: inherit;
+}
+
+/* Reset margins and paddings on most elements */
+body, h1, h2, h3, h4, h5, h6, ul, ol, li, p, pre, blockquote, figure, hr {
+  margin: 0;
+  padding: 0;
+}
+
+/* Removes discs from ul */
+ul {
+  list-style: none;
+}
+
+/* Reset forms and buttons */
+input, textarea, select, button {
+  color: inherit;
+  font: inherit;
+  letter-spacing: inherit;
+}
+
+input, textarea {
+  border: 1px solid gray;
+}
+
+button {
+  border: 1px solid gray;
+  border-radius: 0;
+  padding: 0.75em 1em;
+  background-color: transparent;
+}
+
+button * {
+  pointer-events: none;
+}
+
+/* Easy responsive for media elements */
+embed, iframe, img, object, video {
+  display: block;
+  max-width: 100%;
+}
+
+/* Useful table styles */
+table {
+  table-layout: fixed;
+  width: 100%;
+}
+
+/* Hidden */
+[hidden] {
+  display: none !important;
+}
+
+/* noscript styles */
+noscript {
+  display: block;
+  margin-bottom: 1em;
+  margin-top: 1em;
+}
+
+body {
+  font: 16px "Roboto", sans-serif;
+  color: #333;
+}
+/*# sourceMappingURL=style.css.map */
